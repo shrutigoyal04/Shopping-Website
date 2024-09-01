@@ -32,7 +32,7 @@ const orderSchema = new Schema(
             id: Number,
             productImage: String,
             productName: String,
-            productPrice: Number,
+            productPrice: String,
             pQuantity: Number
           }
         ]
